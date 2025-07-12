@@ -21,7 +21,7 @@ def setup_function(function):
 def test_login():
     driver.get("https://school.gdquest.com/auth/login")
 
-    driver.find_element(By.ID, "email-email").send_keys("kyoyagami666kof@gmai.com")
+    driver.find_element(By.ID, "email-email").send_keys("kyoyagami666kof@gmail.com")
     driver.find_element(By.ID, "password-password").send_keys("kyoyagami666")
     driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div/form/button").click()
     driver.find_element(By.XPATH, "/html/body/div[1]/div/section/div/header/div/nav/div[1]/div/form/button").click()
